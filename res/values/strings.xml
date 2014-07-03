@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">BrickBreaker</string>
+    <string name="app_name">Brick Breaker App</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="button_newGame">New Game</string>
@@ -14,6 +14,7 @@
     <string name="msg_ready">Touch to Start</string>
     <string name="msg_game_over">Game Over</string>
     <string name="msg_winner">Winner!</string>
+    <string name="msg_live_up">Nice! Live up!</string>
     <string name="difficulty">Difficulty: </string>
     <string name="ok">OK</string>
 
@@ -26,7 +27,7 @@
 
     <string name="button_play">Start</string>
     <string name="button_levels">Levels</string>
-    <string name="button_option">Option</string>
+    <string name="button_option">Options</string>
     <string name="button_ranking">Ranking</string>
     <string name="button_exit">Exit</string>
     <string name="title_activity_breakout">BreakoutActivity</string>
@@ -35,5 +36,6 @@
     <string name="check_sound">Sound Effects</string>
     <string name="check_vibration">Vibration</string>
     <string name="button_back">Back</string>
+    <string name="high_score">High Score: 0</string>
 
 </resources>

@@ -1,68 +1,76 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/fragment_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="br.usp.ime.breakoutapp.MainActivity" >
+    android:layout_gravity="center"
+    android:background="@drawable/fundotijolo"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:gravity="center" >
 
+    
+    <TextView 
+        android:id="@+id/high_score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:text="@string/high_score"/>
     <!-- Start the game -->
+
     <Button
         android:id="@+id/btPlay"
-        android:layout_width="100dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
         android:layout_marginTop="26dp"
-        android:text="@string/button_play" 
-        android:onClick="onClickPlay"/>
-    
+        android:background="#70ffffff"
+        android:onClick="onClickPlay"
+        android:text="@string/button_play"
+        android:textColor="#ffffff"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
     <!-- Show the levels of game -->
+
     <Button
         android:id="@+id/btLevels"
-        android:layout_width="100dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/btPlay"
-        android:layout_centerHorizontal="true"
         android:layout_marginTop="27dp"
-        android:text="@string/button_levels" 
-        android:onClick="onClickLevels"/>
-    
-    <!-- Show a screen with settings(sound, vibration, reset score) -->
-     <Button
+        android:background="#70ffffff"
+        android:onClick="onClickLevels"
+        android:text="@string/button_levels"
+        android:textColor="#ffffff"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <!-- Show a screen with settings(sound, vibration, reset score) 
+
+    <Button
         android:id="@+id/btOption"
-        android:layout_width="100dp"
-        android:layout_height="wrap_content"        
-        android:layout_below="@+id/btLevels"
-        android:layout_centerHorizontal="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_marginTop="28dp"
-        android:text="@string/button_option" 
-        android:onClick="onClickOption"/>
-    
-    <!-- Show a ranking -->
+        android:background="#70ffffff"
+        android:onClick="onClickOption"
+        android:text="@string/button_option"
+        android:textColor="#ffffff"
+        android:textSize="26sp"
+        android:textStyle="bold" />-->
+
+    <!-- Show a ranking 
+
     <Button
         android:id="@+id/btRanking"
-        android:layout_width="100dp"
-        android:layout_height="wrap_content"        
-        android:layout_below="@+id/btOption"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="29dp"
-        android:text="@string/button_ranking" 
-        android:onClick="onClickRanking"/>
-	
-    <!-- Exit of game -->
-    <Button
-        android:id="@+id/btExit"
-        android:layout_width="100dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/btRanking"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="30dp"
-        android:text="@string/button_exit" 
-        android:onClick="onClickExit"/>
-    
+        android:layout_marginTop="29dp"
+        android:background="#70ffffff"
+        android:onClick="onClickRanking"
+        android:text="@string/button_ranking"
+        android:textColor="#ffffff"
+        android:textSize="26sp"
+        android:textStyle="bold" />-->
 
-</RelativeLayout>
+</LinearLayout>
