@@ -1,4 +1,3 @@
 BrickBreakerApp
 ===============
 
-Breakout for android
